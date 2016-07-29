@@ -1,0 +1,14 @@
+<!doctype html>
+<title>Todo app</title>
+<script src="/node_modules/mithril/mithril.min.js"></script>
+<body>
+<script>
+  let card = {}
+  card.School = (data) => {
+    this.name = m.prop(data.school)
+    this.todos = m.props(data.todos)
+    this.done = m.prop(false)
+  }
+  card.Schools = Array;
+</script>
+</body>
